@@ -10,17 +10,12 @@ import sweetviz as sv
 import pandas_profiling
 from streamlit_pandas_profiling import st_profile_report
 
-# ML stuff
-# import pycaret 
-# from pycaret.classification import *
-# setup, compare_models, pull, save_model
 
 def st_display_sweetviz(report_html,width=1000, height=1200):
     report_file = codecs.open(report_html, "r")
     page = report_file.read()
     components.html(page, width = width , height = height, scrolling =True)
-#     analyze_report.show_html(filepath='./frontend/public/SWEETVIZ_REPORT.html', open_browser=False, layout='vertical', scale=1.0)
-#     components.iframe(src='http://localhost:3001/EDA.html', width=1100, height=1200, scrolling=True)
+
 
 with st.sidebar:
     st.image("https://s3.amazonaws.com/libapps/accounts/31258/images/Overviewlogo.png")
