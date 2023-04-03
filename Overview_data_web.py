@@ -11,8 +11,8 @@ import pandas_profiling
 from streamlit_pandas_profiling import st_profile_report
 
 # ML stuff
-import pycaret 
-from pycaret.classification import *
+# import pycaret 
+# from pycaret.classification import *
 # setup, compare_models, pull, save_model
 
 def st_display_sweetviz(report_html,width=1000, height=1200):
