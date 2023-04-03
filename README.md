@@ -1,4 +1,4 @@
-# overview_data_app
+# Overview_data_app
 
 This code is a Streamlit app that allows users to perform simple Exploratory Data Analysis (EDA) tasks on their datasets. It has several components:
 
