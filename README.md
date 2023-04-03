@@ -1,6 +1,6 @@
 # Overview_data_app
 
-This code is a Streamlit app that allows users to perform simple Exploratory Data Analysis (EDA) tasks on their datasets. It has several components:
+This project is a example Streamlit app that allows users to perform simple Exploratory Data Analysis (EDA) tasks on their datasets. It has several components:
 
 It imports the necessary libraries including Streamlit, Pandas, os, codecs and Sweetviz.
 
@@ -15,6 +15,8 @@ If the user selects "Profiling", the app generates a report on the dataset using
 If the user selects "Sweetviz", the app generates a report on the dataset using Sweetviz library by clicking a button and displays the report using the "st_display_sweetviz" function defined earlier.
 
 If the user selects "About", some information about the app is displayed.
+
+### You can try it on: https://ltnguyen-git-overview-data-app-overview-data-web-gd0fm8.streamlit.app/
 
 ## In summary, this app provides a simple way for users to upload, visualize and summarize their datasets with easy-to-use interactive tools.
 
