@@ -1,2 +1,3 @@
 sweetviz==2.1.4
 pandas-profiling==3.6.6
+streamlit-pandas-profiling==0.1.3
