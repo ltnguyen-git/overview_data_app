@@ -4,7 +4,7 @@ import pandas as pd
 import os
 
 import codecs
-# import sweetviz as sv
+import sweetviz as sv
 
 # Import profiling capability
 import pandas_profiling
